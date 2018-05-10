@@ -209,7 +209,6 @@ for arg in "$@"; do
   shift
   case "$arg" in
     "--help")       set -- "$@" "-h" ;;
-    "--port")       set -- "$@" "-p" ;;
     "--daemon")     set -- "$@" "-d" ;;
     "--killd")      set -- "$@" "-k" ;;
     "--killd-all")  set -- "$@" "-a" ;;
